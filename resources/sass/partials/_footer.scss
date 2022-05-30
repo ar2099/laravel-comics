@@ -1,0 +1,93 @@
+.footer-blu {
+    background-color: #0282F9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    li {
+        display: inline-flex;
+        align-items: center;
+        color: white;
+        margin: 25px;
+        font-size: 0.8em;
+    }
+
+    img {
+        margin-right: 15px;
+        height: 50px;
+    }
+
+    img:hover {
+        height: 60px;
+    }
+
+    section {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+.footer-grande {
+    height: 330px;
+    background-image: url("../images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: grey;
+    nav {
+            display: flex;
+        }
+    
+        ul {
+            margin-left: 16px;
+        }
+    
+        img {
+            height: 450px;
+        }
+    
+        li {
+            font-size: 0.9em;
+            margin-top: 4px;
+        }
+    
+        .titolo {
+            font-size: 1.3em;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+}
+
+.footer-finale {
+    height: 100px;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .parte destra {
+        display: flex;
+        text-align: center;
+    }
+    .sign {
+        color: white;
+        padding: 20px;
+        border: 1px solid blue;
+        display: inline-block;
+        height: fit-content;
+        text-align: center;
+    }
+    .follow {
+        color: blue;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    .segno {
+        color: rgb(197, 197, 197);
+        font-size: 2em;
+        margin-left: 15px;
+    }
+}

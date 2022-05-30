@@ -16,3 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/comic', function () {
+    $confi_fumetti = config("comics");
+    $data = [
+        "fumetti" => $confi_fumetti,
+        "marzio" => [
+            "maria" => [0, 1],
+            "genovese" => [2, 3],
+            "beppe" => [4, 5]
+        ],
+    ];
+    return view('comic', $data);
+});
+
