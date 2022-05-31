@@ -1,0 +1,76 @@
+.contenitore-singolo-fumetto {
+    
+    .pannello-sopra-singolo {
+        background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+            width: 100%;
+            height: 350px;
+    }
+
+    .img-class {
+        width: 160px;
+        position: absolute;
+        left: 30%;
+        top: 260px;
+        z-index: 3;
+        box-sizing: content-box;
+        border: 2px solid white;
+    }
+
+    .sbarretta-blu {
+        width: 100%;
+        height: 80px;
+        background-color: #2F83FF;
+    }
+
+    .schermata {
+        width: 40%;
+    }
+    .verde-barra {
+        width: 100%;
+        background-color: green;
+        height: 60px;
+        color: white;
+        display: flex;
+        .verde1 {
+            font-weight: 200;
+            width: 65%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+        }
+        .verde2 {
+            width: 45%;
+            border-left: 1px solid rgb(1, 92, 1);
+            height: 100%;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .descrizione {
+        font-size: 0.8em;
+        margin-top: 10px;
+    }
+    h1 {
+        font-size: 1.9em;
+        color: #042035;
+    }
+
+    .publicita {
+        font-size: 1.2em;
+        text-transform: uppercase;
+        color: #042035;
+        font-weight: bolder;
+        text-align: right;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 30px;
+    }
+}

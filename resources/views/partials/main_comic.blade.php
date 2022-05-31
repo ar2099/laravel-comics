@@ -4,7 +4,7 @@
     <div class="cont-img">
             <img src="{{ $fumetto["thumb"]}}" alt="copertina">        
     </div>
-    <p>{{ $fumetto["title"]}} <span style="color: red">{{ $key }}</span></p>
+    <p>{{ $fumetto["title"]}}</p>
 </a>
 @endforeach
 </div>

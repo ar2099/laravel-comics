@@ -11,7 +11,7 @@
 
 @include('partials.main_comic_single')
 
-@include('partials.footer_blu')
+@include('partials.footer_blu_singolo')
 @include('partials.footer_grigio')
 @include('partials.footer_finale')
 

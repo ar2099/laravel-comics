@@ -7939,6 +7939,33 @@ readers do not read off random characters that represent icons */
   margin-left: 15px;
 }
 
+.footer-blu-singolo {
+  background-color: #F3F3F6;
+  border-top: 1px solid rgb(172, 172, 172);
+  height: 100px;
+}
+.footer-blu-singolo ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+.footer-blu-singolo img {
+  width: 40px;
+  align-self: center;
+  filter: brightness(0.4);
+}
+.footer-blu-singolo li {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: rgb(172, 172, 172);
+  border-right: 1px solid rgb(172, 172, 172);
+  height: 100%;
+}
+
 .titan {
   background-image: url("../images/jumbotron.jpg");
   height: 300px;
@@ -7970,4 +7997,78 @@ readers do not read off random characters that represent icons */
 }
 .contenitore-comic img {
   width: 200px;
+}
+
+.contenitore-singolo-fumetto .pannello-sopra-singolo {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+  height: 350px;
+}
+.contenitore-singolo-fumetto .img-class {
+  width: 160px;
+  position: absolute;
+  left: 30%;
+  top: 260px;
+  z-index: 3;
+  box-sizing: content-box;
+  border: 2px solid white;
+}
+.contenitore-singolo-fumetto .sbarretta-blu {
+  width: 100%;
+  height: 80px;
+  background-color: #2F83FF;
+}
+.contenitore-singolo-fumetto .schermata {
+  width: 40%;
+}
+.contenitore-singolo-fumetto .verde-barra {
+  width: 100%;
+  background-color: green;
+  height: 60px;
+  color: white;
+  display: flex;
+}
+.contenitore-singolo-fumetto .verde-barra .verde1 {
+  font-weight: 200;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.contenitore-singolo-fumetto .verde-barra .verde2 {
+  width: 45%;
+  border-left: 1px solid rgb(1, 92, 1);
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenitore-singolo-fumetto .descrizione {
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+.contenitore-singolo-fumetto h1 {
+  font-size: 1.9em;
+  color: #042035;
+}
+.contenitore-singolo-fumetto .publicita {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #042035;
+  font-weight: bolder;
+  text-align: right;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 30px;
 }

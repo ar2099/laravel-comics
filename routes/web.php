@@ -27,9 +27,9 @@ Route::get('/comics', function () {
 })->name("comics");
 
 Route::get('/comics/{id}', function ($id) {
-    dump($id);
+    // dump($id);
     $confi_fumetti = config("comics");
-    dump($confi_fumetti[$id]);
+    // dump($confi_fumetti[$id]);
     $data = [
         "fumetti" => $confi_fumetti,
         "fumetto_singolo" => $confi_fumetti[$id]
