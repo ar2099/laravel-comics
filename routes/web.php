@@ -17,16 +17,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/comic', function () {
+Route::get('/comics', function () {
     $confi_fumetti = config("comics");
     $data = [
         "fumetti" => $confi_fumetti,
-        "marzio" => [
-            "maria" => [0, 1],
-            "genovese" => [2, 3],
-            "beppe" => [4, 5]
-        ],
+        
+    ];
+    return view('comics', $data);
+})->name("comics");
+
+Route::get('/comics/{id}', function ($id) {
+    dump($id);
+    $confi_fumetti = config("comics");
+    dump($confi_fumetti[$id]);
+    $data = [
+        "fumetti" => $confi_fumetti,
+        "fumetto_singolo" => $confi_fumetti[$id]
     ];
     return view('comic', $data);
-});
+})->name("comic");
+
 

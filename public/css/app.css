@@ -7956,8 +7956,11 @@ readers do not read off random characters that represent icons */
   padding-top: 30px;
 }
 .contenitore-comic .div-comic {
+  display: inline-block;
   width: 200px;
   margin: 15px;
+  color: white;
+  text-decoration: none;
 }
 .contenitore-comic .cont-img {
   width: 200px;
