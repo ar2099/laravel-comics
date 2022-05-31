@@ -28,8 +28,62 @@
                 </div>
         </div>
 
-        <div class="tabella">
+        <div class="tabella-riquadro">
+            
+            <div class="tabella">
+                <div class="riga">
+                    <h3>Talent</h1>
+                        <span>
 
+                        </span>
+                        <span class="blu"></span>
+                </div>
+                 <div class="riga">
+                        <span>
+                           Art by:
+                        </span>
+                        <span class="blu">
+                            @foreach ($fumetto_singolo["artists"] as $item)
+                    {{$item}}, 
+                            @endforeach 
+                        </span>
+                </div>
+                <div class="riga">
+                        <span>
+                           Writen by:
+                        </span>
+                        <span class="blu">
+                            @foreach ($fumetto_singolo["writers"] as $item)
+                       {{$item}}, 
+                        @endforeach 
+                        </span>
+                </div>
+            </div>  
+             <div class="tabella">
+                
+                <div class="riga">
+                        
+                           <h3>Spec</h3>
+                        
+                        <span class="blu">
+                            {{$fumetto_singolo["type"]}}
+                        </span>
+                </div>
+                <div class="riga">
+                        <span>
+                           US Price: 
+                        </span>
+                        <span >{{$fumetto_singolo["price"]}}</span>
+                </div>
+                <div class="riga">
+                        <span>
+                           On sales date: 
+                        </span>
+                        <span >{{$fumetto_singolo["sale_date"]}}</span>
+                </div>
+             </div>
+            </div>
+            
         </div>
         
         

@@ -73,4 +73,37 @@
         width: fit-content;
         margin-left: 30px;
     }
+
+
+    .tabella-riquadro {
+        background-color: #F3F3F6;
+        width: 100%;
+        padding-bottom: 40px;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        
+        .tabella {
+            width: 40%;
+            margin-right: 10px;
+                margin-left: 10px;
+        }
+
+        .riga {
+            padding: 20px 5px 20px 5px;
+            
+            border-bottom: 1px solid #bdbdbd;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            
+            h3 {
+                font-size: 1.4em;
+            }
+            .blu {
+                color: #579aff;
+                max-width: 200px;
+            }
+        }
+    }
 }

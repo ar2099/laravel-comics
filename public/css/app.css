@@ -8072,3 +8072,32 @@ readers do not read off random characters that represent icons */
   width: fit-content;
   margin-left: 30px;
 }
+.contenitore-singolo-fumetto .tabella-riquadro {
+  background-color: #F3F3F6;
+  width: 100%;
+  padding-bottom: 40px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+.contenitore-singolo-fumetto .tabella-riquadro .tabella {
+  width: 40%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.contenitore-singolo-fumetto .tabella-riquadro .riga {
+  padding: 20px 5px 20px 5px;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contenitore-singolo-fumetto .tabella-riquadro .riga h3 {
+  font-size: 1.4em;
+}
+.contenitore-singolo-fumetto .tabella-riquadro .riga .blu {
+  color: #579aff;
+  max-width: 200px;
+}
